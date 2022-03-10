@@ -71,8 +71,8 @@ header {
 }
 
 .imageUrl {
-  width: 350px;
-  height: 300px;
+  width: 300px;
+  height: 260px;
 }
 
 .content {
@@ -99,7 +99,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding: 0px;
+    padding: 15px 0px;
   }
   .group {
     margin: 80px 160px;
