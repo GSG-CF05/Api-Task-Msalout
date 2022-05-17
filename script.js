@@ -4,7 +4,7 @@ let group = document.createElement("div");
 group.setAttribute("class", "group");
 container.appendChild(group);
 
-fetch("https://inshorts.deta.dev/news?category=technology")
+fetch("http://inshorts.deta.dev/news?category=technology")
   .then((res) => {
     return res.json();
   })
